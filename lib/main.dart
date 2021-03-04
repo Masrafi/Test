@@ -24,7 +24,12 @@ class NewsScreen extends StatelessWidget {
       appBar: AppBar(
         title: Text("Git Test"),
       ),
-      body: Center(child: Text("Wow. It is work now")),
+      body: Column(
+        children: [
+          Center(child: Text("Wow. It is work now")),
+          Text("Hello Dear")
+        ],
+      ),
     );
   }
 }
