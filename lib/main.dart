@@ -1,7 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:mvvm_part2/screens/news_screen.dart';
-import 'package:mvvm_part2/viewmodels/news_article_list_view_model.dart';
-import 'package:provider/provider.dart';
 
 void main() {
   runApp(MyApp());
@@ -27,7 +24,7 @@ class NewsScreen extends StatelessWidget {
       appBar: AppBar(
         title: Text("Masrafi"),
       ),
-      body: Center(child: Text("Masrefi")),
+      body: Center(child: Text("Masrafi anam")),
     );
   }
 }
