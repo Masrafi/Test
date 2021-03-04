@@ -24,7 +24,7 @@ class NewsScreen extends StatelessWidget {
       appBar: AppBar(
         title: Text("AppBar"),
       ),
-      body: Center(child: Text("Masrafi anam")),
+      body: Center(child: Text("Why it is not upload")),
     );
   }
 }
