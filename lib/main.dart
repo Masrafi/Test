@@ -22,7 +22,7 @@ class NewsScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Masrafi"),
+        title: Text("AppBar"),
       ),
       body: Center(child: Text("Masrafi anam")),
     );
