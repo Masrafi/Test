@@ -23,6 +23,11 @@ class MyApp extends StatelessWidget {
 class NewsScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("Masrafi"),
+      ),
+      body: Center(child: Text("Masrefi")),
+    );
   }
 }
