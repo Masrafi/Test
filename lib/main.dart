@@ -22,9 +22,9 @@ class NewsScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("AppBar"),
+        title: Text("Git Test"),
       ),
-      body: Center(child: Text("Why it is not upload. Why")),
+      body: Center(child: Text("Wow. It is work now")),
     );
   }
 }
